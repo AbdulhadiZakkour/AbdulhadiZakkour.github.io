@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,25 +7,25 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="../public/image/logo.jpg" rel="icon">
-    <link href="../public/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="image/logo.jpg" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
-    <link href="../public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Libraries CSS Files -->
-    <link href="../public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../public/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../public/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="../public/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet"> 
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <link href="../public/css/mystyle.css" rel="stylesheet">
-    <link href="../public/css/style.css" rel="stylesheet">
-    <link href="../public/css/news.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
 </head>
 
 <div class="click-closed"></div>
@@ -38,18 +37,18 @@
             <span></span>
             <span></span>
         </button>
-        <a style="padding-right: 10px" href="../public/index.php"><img width="60px" src="../public/image/h1m.png"></a>
-        <a class="navbar-brand text-brand" href="../public/index.php">بلدية <span class="color-b">باب عمان</span></a>
+        <a style="padding-right: 10px" href="index.php"><img width="60px" src="image/h1m.png"></a>
+        <a class="navbar-brand text-brand" href="index.php">بلدية <span class="color-b">باب عمان</span></a>
         <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul class="navbar-nav col-lg-12" style="margin-left: 180px;margin-top: 6px">
                 <li class="nav-item" id="login">
-                    <a class="nav-link" href="../public/login.php">تسجيل الدخول</a>
+                    <a class="nav-link" href="login.php">تسجيل الدخول</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../public/msg.php">مهام البلدية</a>
+                    <a class="nav-link" href="msg.php">مهام البلدية</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../public/location.php">موقع البلدية الجغرافي</a>
+                    <a class="nav-link" href="location.php">موقع البلدية الجغرافي</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -57,24 +56,15 @@
                         الخدمات الالكترونية
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="float: right">
-                        <?php
-                        foreach ($servSet as $serv){
-                            if ($serv['serv_id']==7)
-                                echo "<a class=\"dropdown-item\" href='../public/serv1.php?serv_id={$serv['serv_id']}''>{$serv['serv_name']}</a>";
-                        elseif($serv['serv_id']==8)
-                        echo "<a class=\"dropdown-item\" href='../public/serv2.php?serv_id={$serv['serv_id']}''>{$serv['serv_name']}</a>";
-                        elseif($serv['serv_id']==9)
-                        echo "<a class=\"dropdown-item\" href='../public/serv3.php?serv_id={$serv['serv_id']}''>{$serv['serv_name']}</a>";
-                        }
-                        ?>
+                  
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../public/index.php">الصفحة الرئيسية</a>
+                    <a class="nav-link active" href="index.php">الصفحة الرئيسية</a>
                 </li>
             </ul>
             <div class="feedback">
-                <a href="../public/feedback.php" ><img id="mybutton" src="../public/image/feedback_button.png"></a>
+                <a href="feedback.php" ><img id="mybutton" src="image/feedback_button.png"></a>
             </div>
         </div>
 
