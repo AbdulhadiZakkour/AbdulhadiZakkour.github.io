@@ -1,0 +1,57 @@
+.card{
+    text-align: right !important;
+}
+input[type="text"]{
+    text-align: right !important;
+}
+input[type="email"]{
+    text-align: right !important;
+}
+textarea{
+    text-align: left!important;
+}
+input[type="password"]{
+    text-align: right !important;
+}
+input[type="tel"]{
+    text-align: right !important;
+}
+input[type="date"]
+{ text-align: right!important;}
+input[type="number"]
+{
+    text-align: right !important;
+}
+img{
+    text-align: right !important;
+}
+.good
+{
+    text-align: right !important;
+    padding-top: 10px;
+}
+label
+{
+    float: right !important;
+    padding-right: 10px !important  ;
+    clear: both;
+}
+.my {
+    padding-top: 30px;
+    margin: 20px!important;
+}
+h4 {
+    text-align: right!important;
+
+}
+h3{
+    text-align: center!important;
+    font-family: bold;
+}
+#btn-right{
+
+}
+.figure img{
+    height: 400px!important;
+    width: 400px!important;
+}

@@ -1,0 +1,113 @@
+card {
+    text-align: right !important;
+    border: none;!important;
+}
+
+input[type="text"] {
+    text-align: right !important;
+}
+
+input[type="email"] {
+    text-align: right !important;
+}
+
+textarea {
+    text-align: left!important;
+}
+
+input[type="password"] {
+    text-align: right !important;
+}
+
+input[type="tel"] {
+    text-align: right !important;
+}
+
+input[type="date"] {
+    text-align: right!important;
+}
+
+input[type="number"] {
+    text-align: right !important;
+}
+
+img {
+    text-align: right !important;
+}
+
+textarea{
+    text-align: right!important;
+}
+.my {
+    padding-top: 150px!important;
+    margin: 10px!important;
+}
+h4 {
+    text-align: right!important;
+}
+
+h3 {
+    font-family: bold!important;
+}
+
+.navbar-nav {
+    margin-left: 150px!important;
+}
+
+.nav-link {
+    inline-size: border-box!important;
+}
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 800px;
+    width: 100%;
+}
+select {
+    margin-top: 10px;
+    text-align: right!important;
+}
+option{
+    text-align: right!important;
+}
+.btn-right{
+    margin-top: 15px!important;
+}
+.feedback {
+
+    color: white;
+    padding: 10px 20px;
+
+}
+
+#mybutton {
+    position: fixed;
+    bottom: -4px;
+    left: 10px;
+}
+.my1 {
+    padding-top: 80px!important;
+    margin: 10px!important;
+}
+label
+{
+    float: right !important;
+    padding-right: 10px !important  ;
+    clear: both;
+}
+.carousel-control-prev-icon{
+    background-color: #555555;!important;
+}
+.carousel-control-next-icon{
+    background-color: #555555;!important;
+}
+.figure img{
+    height: 400px!important;
+    width: 400px!important;
+}

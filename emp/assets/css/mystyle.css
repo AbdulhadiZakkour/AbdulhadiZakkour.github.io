@@ -1,0 +1,45 @@
+card{
+    text-align: right !important;
+}
+input[type="text"]{
+    text-align: right !important;
+}
+input[type="email"]{
+    text-align: right !important;
+}
+textarea{
+    text-align: left!important;
+}
+input[type="password"]{
+    text-align: right !important;
+}
+input[type="tel"]{
+    text-align: right !important;
+}
+input[type="date"]
+{ text-align: right!important;}
+input[type="number"]
+{
+    text-align: right !important;
+}
+img{
+    text-align: right !important;
+}
+label
+{
+    float: right !important;
+    padding-right: 10px !important  ;
+    clear: both;
+}
+.my {
+    text-align: right !important;
+    padding-top: 30px!important;
+    margin: 30px!important;
+}
+h4 {
+    text-align: right!important;
+}
+h3{
+    text-align: center!important;
+    font-weight: bold;
+}
